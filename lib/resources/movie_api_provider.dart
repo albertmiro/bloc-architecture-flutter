@@ -26,7 +26,7 @@ class MovieApiProvider {
 
   Future<String> getApiKey() async {
     Secret secret =
-        await SecretLoader(secretPath: "assets/resources.secrets.json").load();
+        await SecretLoader(secretPath: "assets/secrets.json").load();
     return secret.apiKey;
   }
 }
