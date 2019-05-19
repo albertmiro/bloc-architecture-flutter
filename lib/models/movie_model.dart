@@ -1,10 +1,10 @@
 import 'package:json_annotation/json_annotation.dart';
 
-part 'result_model.g.dart';
+part 'movie_model.g.dart';
 
 @JsonSerializable()
-class ResultModel {
-  ResultModel(
+class Movie {
+  Movie(
       this.vote_count,
       this.id,
       this.video,
@@ -35,8 +35,7 @@ class ResultModel {
   String overview;
   String release_date;
 
-  factory ResultModel.fromJson(Map<String, dynamic> json) =>
-      _$ResultModelFromJson(json);
+  factory Movie.fromJson(Map<String, dynamic> json) => _$MovieFromJson(json);
 
-  Map<String, dynamic> toJson() => _$ResultModelToJson(this);
+  Map<String, dynamic> toJson() => _$MovieToJson(this);
 }

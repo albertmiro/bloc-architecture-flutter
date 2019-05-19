@@ -1,13 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'result_model.dart';
+part of 'movie_model.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-ResultModel _$ResultModelFromJson(Map<String, dynamic> json) {
-  return ResultModel(
+Movie _$MovieFromJson(Map<String, dynamic> json) {
+  return Movie(
       json['vote_count'] as int,
       json['id'] as int,
       json['video'] as bool,
@@ -24,8 +24,7 @@ ResultModel _$ResultModelFromJson(Map<String, dynamic> json) {
       json['release_date'] as String);
 }
 
-Map<String, dynamic> _$ResultModelToJson(ResultModel instance) =>
-    <String, dynamic>{
+Map<String, dynamic> _$MovieToJson(Movie instance) => <String, dynamic>{
       'vote_count': instance.vote_count,
       'id': instance.id,
       'video': instance.video,
