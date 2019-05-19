@@ -14,11 +14,11 @@ If you want to clone this project and try it out, you should follow the next ste
 ### API KEY
 
 Create an `assets` folder juts in the root of this project, and inside it, you would need to store
-the `resources.secrets.json` file.
+the `secrets.json` file.
 
 The IMDB **API Key** could be obtained from this [link](https://www.themoviedb.org/account/signup)
 
-*resources.secrets.json:*
+*secrets.json:*
 
 ```
 {
@@ -76,4 +76,4 @@ In order to work with this project I will be following and merging these differe
 - [Heroes App — Handle sensitive data, API and JSON serialization in Flutter](https://medium.com/aubergine-solutions/heroes-app-handle-sensitive-data-api-and-json-serialization-3022d53dfe08)
 - [Storing your secret keys in Flutter](https://medium.com/@sokrato/storing-your-secret-keys-in-flutter-c0b9af1c0f69)
 - [Flutter SDK Documentation](https://api.flutter.dev/)
-- [Effective Dart: Styke](https://dart.dev/guides/language/effective-dart/style)
+- [Effective Dart: Style](https://dart.dev/guides/language/effective-dart/style)
