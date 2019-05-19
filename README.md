@@ -42,7 +42,7 @@ In order to automatically generate the *.g* files, that would contain the necess
 - [x] Hide Secret API Key
 - [ ] Business models & Data models
 - [ ] Mapper between models 
-- [ ] Open detail when clicking on an item
+- [x] Open detail when clicking on an item
 - [ ] Unit tests
 - [ ] Widget tests
 - [ ] Code coverage report
