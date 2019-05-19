@@ -28,7 +28,7 @@ The IMDB **API Key** could be obtained from this [link](https://www.themoviedb.o
 
 ### How to generate the automatic JSON parsing code?
 
-If the `result_model.dart` or `item_model.dart` files are changed, we would need to run:
+If the files inside `models/` folder are changed, we would need to run:
 
 >$ flutter packages pub run build_runner watch
 
