@@ -14,11 +14,11 @@ If you want to clone this project and try it out, you should follow the next ste
 ### API KEY
 
 Create an `assets` folder juts in the root of this project, and inside it, you would need to store
-the `resources.secrets.json` file.
+the `secrets.json` file.
 
 The IMDB **API Key** could be obtained from this [link](https://www.themoviedb.org/account/signup)
 
-*resources.secrets.json:*
+*secrets.json:*
 
 ```
 {
