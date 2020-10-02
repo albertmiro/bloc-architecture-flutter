@@ -11,7 +11,7 @@ class MovieDetailBloc {
 
   Function(int) get fetchTrailersById => _movieId.sink.add;
 
-  Observable<Future<Trailers>> get movieTrailers => _trailers.stream;
+  Stream<Future<Trailers>> get movieTrailers => _trailers.stream;
 
   MovieDetailBloc() {
     _movieId.stream.transform(_itemTransformer()).pipe(_trailers);

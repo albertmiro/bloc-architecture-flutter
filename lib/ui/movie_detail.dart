@@ -197,7 +197,7 @@ class MovieDetailState extends State<MovieDetail> {
     }
   }
 
-  trailerItem(Trailers data, int index) {
+  Widget trailerItem(Trailers data, int index) {
     return Expanded(
       child: Column(
         children: <Widget>[
